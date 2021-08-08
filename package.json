@@ -1,0 +1,51 @@
+{
+    "name": "themes-from-volskaya",
+    "displayName": "Themes from Volskaya",
+    "description": "The dark, 1 color dominant themes from Volskaya's emacs config.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "krone",
+                "uiTheme": "vs-dark",
+                "path": "./themes/krone_theme.json"
+            },
+            {
+                "label": "ryu",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ryu_theme.json"
+            },
+            {
+                "label": "volskaya",
+                "uiTheme": "vs-dark",
+                "path": "./themes/volskaya_theme.json"
+            },
+            {
+                "label": "lore",
+                "uiTheme": "vs-dark",
+                "path": "./themes/lore_theme.json"
+            },
+            {
+                "label": "po",
+                "uiTheme": "vs-dark",
+                "path": "./themes/po_theme.json"
+            },
+            {
+                "label": "mirai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mirai_theme.json"
+            },
+            {
+                "label": "twitch",
+                "uiTheme": "vs-dark",
+                "path": "./themes/twitch_theme.json"
+            },
+        ]
+    }
+}
