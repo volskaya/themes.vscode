@@ -12,37 +12,37 @@
     "contributes": {
         "themes": [
             {
-                "label": "krone",
+                "label": "Voslakay's themes - Krone",
                 "uiTheme": "vs-dark",
                 "path": "./themes/krone_theme.json"
             },
             {
-                "label": "ryu",
+                "label": "Voslakay's themes - Ryu",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ryu_theme.json"
             },
             {
-                "label": "volskaya",
+                "label": "Voslakay's themes - Volskaya",
                 "uiTheme": "vs-dark",
                 "path": "./themes/volskaya_theme.json"
             },
             {
-                "label": "lore",
+                "label": "Voslakay's themes - Lore",
                 "uiTheme": "vs-dark",
                 "path": "./themes/lore_theme.json"
             },
             {
-                "label": "po",
+                "label": "Voslakay's themes - Po",
                 "uiTheme": "vs-dark",
                 "path": "./themes/po_theme.json"
             },
             {
-                "label": "mirai",
+                "label": "Voslakay's themes - Mirai",
                 "uiTheme": "vs-dark",
                 "path": "./themes/mirai_theme.json"
             },
             {
-                "label": "twitch",
+                "label": "Voslakay's themes - Twitch",
                 "uiTheme": "vs-dark",
                 "path": "./themes/twitch_theme.json"
             },
