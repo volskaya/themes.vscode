@@ -63,7 +63,7 @@ theme = {
     'languageConstantColor': colors['orange'],
     'lineHighlightColor': '#181818',
 
-    'indentGuideColor': colors['divider'],
+    'indentGuideColor': '#181818',
     'whitespaceColor': colors['divider'],
     'matchingBracketColor': colors['yellow'],
 

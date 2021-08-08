@@ -155,7 +155,7 @@
     "editor.rangeHighlightBackground": "#212121",
     "editor.rangeHighlightBorder": "#212121",
     "editorWhitespace.foreground": "#212121",
-    "editorIndentGuide.background": "#212121",
+    "editorIndentGuide.background": "#181818",
     "editorRuler.foreground": "#525252",
     "editorCodeLens.foreground": "#6b6b6b",
     "editorBracketMatch.background": "#00000000",

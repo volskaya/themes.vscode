@@ -20,4 +20,4 @@ for theme in themes:
     args = [f"--{key}={value}" for key, value in theme.items()]
     print(f'Calling {generatorPath.name} with "{" ".join(args)}"')
     subprocess.call([str(generatorPath), *args])
-    kprint('\n')
+    print('\n')
