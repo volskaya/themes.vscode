@@ -170,7 +170,7 @@
     "editorInfo.background": "#00000000",
     "editorInfo.foreground": "#f20530",
     "editorInfo.border": "#121212",
-    "editorHint.foreground": "#f20530",
+    "editorHint.foreground": "#FFFF0A",
     "editorHint.border": "#121212",
     "editorGutter.background": "#121212",
     "editorGutter.modifiedBackground": "#525252",
@@ -276,13 +276,13 @@
     "terminal.ansiBrightBlue": "#f7f1ff",
     "terminal.ansiBrightCyan": "#f20530",
     "terminal.ansiBrightGreen": "#f7f1ff",
-    "terminal.ansiBrightMagenta": "#f20530",
+    "terminal.ansiBrightMagenta": "#FFFF0A",
     "terminal.ansiBrightRed": "#525252",
     "terminal.ansiBrightWhite": "#f7f1ff",
     "terminal.ansiBrightYellow": "#f20530",
     "terminal.ansiCyan": "#f20530",
     "terminal.ansiGreen": "#f7f1ff",
-    "terminal.ansiMagenta": "#f20530",
+    "terminal.ansiMagenta": "#FFFF0A",
     "terminal.ansiRed": "#525252",
     "terminal.ansiWhite": "#f7f1ff",
     "terminal.ansiYellow": "#f20530",
@@ -304,9 +304,9 @@
     "symbolIcon.arrayForeground": "#525252",
     "symbolIcon.booleanForeground": "#525252",
     "symbolIcon.classForeground": "#f20530",
-    "symbolIcon.colorForeground": "#f20530",
+    "symbolIcon.colorForeground": "#FFFF0A",
     "symbolIcon.constructorForeground": "#f7f1ff",
-    "symbolIcon.constantForeground": "#f20530",
+    "symbolIcon.constantForeground": "#FFFF0A",
     "symbolIcon.enumeratorForeground": "#f7f1ff",
     "symbolIcon.enumeratorMemberForeground": "#f7f1ff",
     "symbolIcon.eventForeground": "#f7f1ff",
@@ -321,18 +321,18 @@
     "symbolIcon.moduleForeground": "#f20530",
     "symbolIcon.namespaceForeground": "#f20530",
     "symbolIcon.nullForeground": "#525252",
-    "symbolIcon.numberForeground": "#f20530",
+    "symbolIcon.numberForeground": "#FFFF0A",
     "symbolIcon.objectForeground": "#f20530",
     "symbolIcon.operatorForeground": "#525252",
-    "symbolIcon.packageForeground": "#f20530",
+    "symbolIcon.packageForeground": "#FFFF0A",
     "symbolIcon.propertyForeground": "#f7f1ff",
-    "symbolIcon.referenceForeground": "#f20530",
+    "symbolIcon.referenceForeground": "#FFFF0A",
     "symbolIcon.snippetForeground": "#f7f1ff",
     "symbolIcon.stringForeground": "#f20530",
     "symbolIcon.structForeground": "#525252",
     "symbolIcon.textForeground": "#f20530",
     "symbolIcon.typeParameterForeground": "#f7f1ff",
-    "symbolIcon.unitForeground": "#f20530",
+    "symbolIcon.unitForeground": "#FFFF0A",
     "symbolIcon.variableForeground": "#f20530",
     "problemsErrorIcon.foreground": "#525252",
     "problemsWarningIcon.foreground": "#f7f1ff",
@@ -362,10 +362,15 @@
     "charts.yellow": "#f20530",
     "charts.green": "#f7f1ff",
     "charts.blue": "#f20530",
-    "charts.purple": "#f20530",
+    "charts.purple": "#FFFF0A",
     "charts.foreground": "#f7f1ff",
     "charts.lines": "#6b6b6b",
-    "sash.hoverBorder": "#6b6b6b"
+    "sash.hoverBorder": "#6b6b6b",
+    "editorBracketHighlight.foreground1": "#FFFF0A",
+    "editorBracketHighlight.foreground2": "#FFFF0A",
+    "editorBracketHighlight.foreground3": "#FFFF0A",
+    "editorBracketHighlight.foreground4": "#FFFF0A",
+    "editorBracketHighlight.foreground5": "#FFFF0A"
   },
   "tokenColors": [
     {
@@ -412,7 +417,7 @@
       "scope": "comment keyword.codetag.notation",
       "settings": {
         "name": "Comment TODO / FIXME (at least in VSCode Python)",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -440,7 +445,7 @@
       "scope": "constant",
       "settings": {
         "name": "Constant",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -454,42 +459,42 @@
       "scope": "constant.other.php",
       "settings": {
         "name": "Constant",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
       "scope": "constant.other.property",
       "settings": {
         "name": "Constant as property",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
       "scope": "constant.other.citation.latex",
       "settings": {
         "name": "Constant in latex",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
       "scope": "constant.other.color",
       "settings": {
         "name": "Constant as color (in css / sass)",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
       "scope": "constant.other.character-class.escape",
       "settings": {
         "name": "Constant as character class escape (e.g. in regex)",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
       "scope": "constant.other.key",
       "settings": {
         "name": "Constant as key (e.g. in puppet manifests)",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -510,7 +515,7 @@
       "scope": "constant.numeric",
       "settings": {
         "name": "Number",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -525,7 +530,7 @@
       "scope": "constant.character.escape",
       "settings": {
         "name": "Character escape",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -581,7 +586,7 @@
       "scope": "entity.name.label",
       "settings": {
         "name": "label",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -609,7 +614,7 @@
       "scope": "entity.name.constant",
       "settings": {
         "name": "Constant name",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -718,7 +723,7 @@
       "scope": "entity.other.git-status.hex",
       "settings": {
         "name": "git status commit hex",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -746,7 +751,7 @@
       "scope": "entity.name.operator.custom-literal.number",
       "settings": {
         "name": "custom literal number",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -1107,7 +1112,7 @@
       ],
       "settings": {
         "name": "Preprocessor",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -1223,7 +1228,7 @@
       ],
       "settings": {
         "Name": "Punctuation hard line break in Markdown",
-        "background": "#f20530"
+        "background": "#FFFF0A"
       }
     },
     {
@@ -1270,8 +1275,8 @@
       "scope": "region.purplish",
       "settings": {
         "name": "region purple color",
-        "foreground": "#f20530",
-        "background": "#f2053059"
+        "foreground": "#FFFF0A",
+        "background": "#FFFF0A59"
       }
     },
     {
@@ -1329,7 +1334,7 @@
       "scope": "source.git-show.commit.sha",
       "settings": {
         "name": "git",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -1352,7 +1357,7 @@
       ],
       "settings": {
         "name": "git diff header hash",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -1418,7 +1423,7 @@
       "scope": "storage.class.restructuredtext.ref",
       "settings": {
         "name": "refs (Restructured text)",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -1615,7 +1620,7 @@
       "scope": "support.constant.core.rust",
       "settings": {
         "name": "rust specific",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {
@@ -1739,7 +1744,7 @@
       ],
       "settings": {
         "name": "Ruby instance variables",
-        "foreground": "#f20530"
+        "foreground": "#FFFF0A"
       }
     },
     {

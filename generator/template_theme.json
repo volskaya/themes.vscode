@@ -365,7 +365,12 @@
     "charts.purple": "{{numberColor}}",
     "charts.foreground": "{{foreground}}",
     "charts.lines": "{{hint}}",
-    "sash.hoverBorder": "{{hint}}"
+    "sash.hoverBorder": "{{hint}}",
+    "editorBracketHighlight.foreground1": "{{bracket}}",
+    "editorBracketHighlight.foreground2": "{{bracket}}",
+    "editorBracketHighlight.foreground3": "{{bracket}}",
+    "editorBracketHighlight.foreground4": "{{bracket}}",
+    "editorBracketHighlight.foreground5": "{{bracket}}"
   },
   "tokenColors": [
     {

@@ -5,15 +5,12 @@ from pathlib import Path
 import argparse
 
 # Parse arguments.
-parser = argparse.ArgumentParser(
-    description='Generates the theme json from the template.')
+parser = argparse.ArgumentParser(description='Generates the theme json from the template.')
 
-parser.add_argument('--name', '-n', required=True, type=str,
-                    help='Name of the generated theme.')
-parser.add_argument('--accent', required=True,
-                    type=str, help='Accent color.')
-parser.add_argument('--number', required=True,
-                    type=str, help='Number color.')
+parser.add_argument('--name', '-n', required=True, type=str, help='Name of the generated theme.')
+parser.add_argument('--accent', required=True, type=str, help='Accent color.')
+parser.add_argument('--number', required=True, type=str, help='The colors of numbers.')
+parser.add_argument('--bracket', required=True, type=str, help='The color of brackets.')
 
 args = parser.parse_args()
 
@@ -36,6 +33,7 @@ colors = {
     "selected": "#6b6b6b",  # Highlighted file names, paths, punctuaction.
     "comment": "#525252",
     "punctuation": "#525252",
+    "bracket": args.bracket,
 
     "red": "#525252",
     "orange": "#525252",

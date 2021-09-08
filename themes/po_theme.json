@@ -365,7 +365,12 @@
     "charts.purple": "#f9545e",
     "charts.foreground": "#f7f1ff",
     "charts.lines": "#6b6b6b",
-    "sash.hoverBorder": "#6b6b6b"
+    "sash.hoverBorder": "#6b6b6b",
+    "editorBracketHighlight.foreground1": "#f9545e",
+    "editorBracketHighlight.foreground2": "#f9545e",
+    "editorBracketHighlight.foreground3": "#f9545e",
+    "editorBracketHighlight.foreground4": "#f9545e",
+    "editorBracketHighlight.foreground5": "#f9545e"
   },
   "tokenColors": [
     {

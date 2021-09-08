@@ -12,40 +12,45 @@
     "contributes": {
         "themes": [
             {
-                "label": "Voslakay's themes - Krone",
+                "label": "Volskaya's themes - Krone",
                 "uiTheme": "vs-dark",
                 "path": "./themes/krone_theme.json"
             },
             {
-                "label": "Voslakay's themes - Ryu",
+                "label": "Volskaya's themes - Ryu",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ryu_theme.json"
             },
             {
-                "label": "Voslakay's themes - Volskaya",
+                "label": "Volskaya's themes - Volskaya",
                 "uiTheme": "vs-dark",
                 "path": "./themes/volskaya_theme.json"
             },
             {
-                "label": "Voslakay's themes - Lore",
+                "label": "Volskaya's themes - Lore",
                 "uiTheme": "vs-dark",
                 "path": "./themes/lore_theme.json"
             },
             {
-                "label": "Voslakay's themes - Po",
+                "label": "Volskaya's themes - Po",
                 "uiTheme": "vs-dark",
                 "path": "./themes/po_theme.json"
             },
             {
-                "label": "Voslakay's themes - Mirai",
+                "label": "Volskaya's themes - Mirai",
                 "uiTheme": "vs-dark",
                 "path": "./themes/mirai_theme.json"
             },
             {
-                "label": "Voslakay's themes - Twitch",
+                "label": "Volskaya's themes - Twitch",
                 "uiTheme": "vs-dark",
                 "path": "./themes/twitch_theme.json"
             },
+            {
+                "label": "Volskaya's themes - Vaatu",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vaatu_theme.json"
+            }
         ]
     }
 }
